@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 html{
-    font-family: 'Gloock', serif;
-    background: rgb(253, 254, 246);
+    font-family: 'Fredoka';
+    background: #F7E8A4;
 }
 
 .container {
@@ -11,11 +12,11 @@ html{
 /* The side navigation menu */
 .sidebar {
     margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+    padding: 50;
+    width: 150px;
+    background-color: #cee1f8;
     position: fixed;
-    height: 100%;
+    height: 200;
     overflow: auto;
   }
   
@@ -29,13 +30,13 @@ html{
   
   /* Active/current link */
   .sidebar a.active {
-    background-color: #04AA6D;
+    background-color: #FF9D85;
     color: white;
   }
   
   /* Links on mouse-over */
   .sidebar a:hover:not(.active) {
-    background-color: #555;
+    background-color: #6F97D8;
     color: white;
   }
   
