@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 html{
@@ -65,3 +64,15 @@ html{
       float: none;
     }
   }
+
+  .flexbox-grid{
+    display: flex;
+    gap: 24px;
+}
+
+.column{
+    background-color: #a4d9ff;
+    padding: 10px 40px;
+    padding-bottom: 24px;
+    flex: -1;
+}

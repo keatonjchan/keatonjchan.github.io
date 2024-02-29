@@ -12,4 +12,5 @@ My personal site.
 
 Citations:
 
-https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
+https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp (Side/Topbar)
+https://coolors.co/ef767a-456990-49beaa-49dcb1-eeb868 (Color Palette)
