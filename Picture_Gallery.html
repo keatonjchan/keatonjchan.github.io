@@ -13,7 +13,8 @@
     <div class="container">
       <h1>Timeline</h1>
 
-      <h2>Enjoy a picture gallery of me from ages 0 until now (15).</h2>
+      <h3>Enjoy a picture gallery of me from ages 0 until now (15). Hover over the image to make it slightly bigger, click on the image to fullscreen the image.</h3>
+      <h3>To exit image fullscreen, click anywhere.</h3>
       
       <div class="sidebar">
         <a class="active" href="index.html">Home</a>
@@ -21,90 +22,111 @@
         <a href="Growth.html">Growth</a>
         <a href="About_Me.html">About Me</a>
     </div>
-    
-    <style>
-      .gallery {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .gallery img {
-        max-width: 100%;
-        margin-bottom: 20px;
-      }
-    </style>
-    </head>
-    <body>
-    <div class="gallery">
-      <img src="Pictures/2008.jpeg" width="450" height="300">
-      Age: 0 (2008)
-      <br>
-      <br> 
-      <img src="Pictures/2009.jpg" width="550" height="300">
-      Age: 1 (2009)
-      <br>
-      <br>
-      <img src="Pictures/2010.jpg" width="450" height="300">
-      Age: 2 (2010)
-      <br>
-      <br>
-      <img src="Pictures/2011.jpg" width="275" height="300">
-      Age: 3 (2011)
-      <br>
-      <br>
-      <img src="Pictures/2012.jpg" width="300" height="300">
-      Age: 4 (2012)
-      <br>
-      <br>
-      <img src="Pictures/2013.png" width="400" height="300">
-      Age: 5 (2013)
-      <br>
-      <br>
-      <img src="Pictures/2014.jpg" width="215" height="300">
-      Age: 6 (2014)
-      <br>
-      <br>
-      <img src="Pictures/2015.jpg" width="225" height="300">
-      Age: 7 (2015)
-      <br>
-      <br>
-      <img src="Pictures/2016.jpg" width="480" height="300">
-      Age: 8 (2016)
-      <br>
-      <br>
-      <img src="Pictures/2017.jpg" width="500" height="300">
-      Age: 9 (2017)
-      <br>
-      <br>
-      <img src="Pictures/2018.jpg" width="450" height="300">
-      Age: 10 (2018)
-      <br>
-      <br>
-      <img src="Pictures/2018.jpg" width="450" height="300">
-      Age: 11 (2019)
-      <br>
-      <br>
-      <img src="Pictures/2020.jpg" width="350" height="300">
-      Age: 12 (2020)
-      <br>
-      <br>
-      <img src="Pictures/2021.jpg" width="250" height="300">
-      Age: 13 (2021)
-      <br>
-      <br>
-      <img src="Pictures/2022.jpeg" width="475" height="300">
-      Age: 14 (2022)
-      <br>
-      <br>
-      <img src="Pictures/2023.png" width="371" height="300">
-      Age: 15 (2023)
-      <br>
-      <br>
-      <img src="Pictures/2024.jpg" width="450" height="300">
-      Age: 16 (2024)
-      <br>
-      <br>
       
+      <div class="gallery">
+
+        <div class="gallery_image">
+          <img src="Pictures/2008.jpeg" width="450" height="300" onclick="showFullscreen(this)">
+          <p>Age: 0 (2008)</p>
+        </div>
+    
+        <div class="gallery_image">
+          <img src="Pictures/2009.jpg" width="550" height="300" onclick="showFullscreen(this)">
+          <p>Age: 1 (2009)</p>
+        </div>
+        
+        <div class="gallery_image">
+          <img src="Pictures/2010.jpg" width="450" height="300" onclick="showFullscreen(this)">
+          <p>Age: 2 (2010)</p>
+        </div>
+
+        <div class="gallery_image">
+          <img src="Pictures/2011.jpg" width="275" height="300" onclick="showFullscreen(this)">
+          <p>Age: 3 (2011)</p>
+        </div>
+
+        <div class="gallery_image">
+          <img src="Pictures/2012.jpg" width="300" height="300" onclick="showFullscreen(this)">
+          <p>Age: 4 (2012)</p>
+        </div>
+
+        <div class="gallery_image">
+          <img src="Pictures/2013.png" width="450" height="300" onclick="showFullscreen(this)">
+          <p>Age: 5 (2013)</p>
+        </div>
+
+      <div class="gallery_image">
+        <img src="Pictures/2014.jpg" width="215" height="300" onclick="showFullscreen(this)">
+        <p>Age: 6 (2014)</p>
+      </div>
+
+      <div class="gallery_image">
+        <img src="Pictures/2015.jpg" width="225" height="300" onclick="showFullscreen(this)">
+        <p>Age: 7 (2015)</p>
+      </div>
+      
+      <div class="gallery_image">
+        <img src="Pictures/2016.jpg" width="480" height="300" onclick="showFullscreen(this)">
+        <p>Age: 8 (2016)</p>
+      </div>
+
+      <div class="gallery_image">
+        <img src="Pictures/2017.jpg" width="500" height="300" onclick="showFullscreen(this)">
+        <p>Age: 9 (2017)</p>
+      </div>
+
+      <div class="gallery_image">
+        <img src="Pictures/2018.jpg" width="450" height="300" onclick="showFullscreen(this)">
+        <p>Age: 10 (2018)</p>
+      </div>
+
+      <div class="gallery_image">
+        <img src="Pictures/2019.jpg" width="250" height="300" onclick="showFullscreen(this)">
+        <p>Age: 11 (2019)</p>
+      </div>
+
+      <div class="gallery_image">
+        <img src="Pictures/2020.jpg" width="350" height="300" onclick="showFullscreen(this)">
+        <p>Age: 12 (2020)</p>
+      </div>
+
+      <div class="gallery_image">
+        <img src="Pictures/2021.jpg" width="250" height="300" onclick="showFullscreen(this)">
+        <p>Age: 13 (2021)</p>
+      </div>
+
+      <div class="gallery_image">
+        <img src="Pictures/2022.jpeg" width="475" height="300" onclick="showFullscreen(this)">
+        <p>Age: 14 (2022)</p>
+      </div>
+
+      <div class="gallery_image">
+        <img src="Pictures/2023.png" width="371" height="300" onclick="showFullscreen(this)">
+        <p>Age: 15 (2023)</p>
+      </div>
+
+      <div class="gallery_image">
+        <img src="Pictures/2024.jpg" width="450" height="300" onclick="showFullscreen(this)">
+        <p>Age: 16 (2024)</p>
+      </div>
+
+      
+      <!-- --Javascript Functions-- -->
+      <div class="fullscreen" onclick="hideFullscreen()">
+        <img src="" alt="Fullscreen Image" id="fullscreen-img">
+      </div>
+      
+      <script>
+        function showFullscreen(img) {
+          document.getElementById('fullscreen-img').src = img.src;
+          document.querySelector('.fullscreen').style.display = 'block';
+        }
+      
+        function hideFullscreen() {
+          document.querySelector('.fullscreen').style.display = 'none';
+        }
+      </script>
+
     </div>
     </body>
     </html>
