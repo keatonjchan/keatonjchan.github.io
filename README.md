@@ -1,6 +1,6 @@
 # emmaqbrown.github.io
 
-My personal site.
+I often find myself looking at pictures of my younger self. It's special. It rejuvenates different memories, the incessant opitimism and joy being sheltered from the harsh truth of the world. The euphoria found in childhood is unparalleled, it creates a heartwarming and prideful feeling unlike anything else. So, I decided to create a website which acts as a database/stronghold of memories. My website consists of pictures of myself throughout the years, each picture represents cool/funny moments of each year.
 
 ---
 
@@ -18,7 +18,7 @@ https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Image
 https://www.w3schools.com/howto/howto_css_border_image.asp (Image Border)
 
 
-Image enlargement upon click (javascript functions) 👇
+Image enlargement upon click (javascript functions): 👇
 https://www.youtube.com/watch?v=ZeM4PNhldtY
 https://www.geeksforgeeks.org/how-to-make-the-images-bigger-when-clicked/
 https://stackoverflow.com/questions/67815853/how-do-i-make-an-image-full-screen-on-click

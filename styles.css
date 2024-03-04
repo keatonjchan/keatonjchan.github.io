@@ -1,13 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 html{
-    font-family: 'Fredoka';
+    font-family: 'Crimson Text';
     background: #F7E8A4;
 }
 
+
+/* CONTAINERS */
 .container {
     text-align: center;
+    font-family: 'Abril Fatface'
   }
+
+/* FOR TITLES (DIFFERENT FONT AND CENTERED) */
+.title{
+    font-family:'Crimson Text'; 
+    text-align: center;
+}
+
+/* TO MAKE IMAGES CENTERED */
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+}
+
+/* SIDEBAR */
 
 .sidebar {
     margin: 0;
@@ -17,6 +39,7 @@ html{
     position: fixed;
     height: 200;
     overflow: auto;
+    text-align: center;
   }
   
   .sidebar a {
@@ -59,6 +82,8 @@ html{
     }
   }
 
+/* PICTURE HOVER/BORDER */
+
 .gallery_image{
   margin: 20px;
 }
@@ -67,6 +92,8 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Fredoka';
+  text-align: center;
 }
 .gallery img {
   max-width: 100%;
@@ -80,6 +107,8 @@ html{
 .gallery img:hover {
   transform: scale(1.10);
 }
+
+/* IMAGE CLICK TO FULLSCREEN */
 
 .fullscreen {
   display: none;
